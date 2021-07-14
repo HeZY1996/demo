@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>springboot学习</title>
+    <script type="text/javascript">
+
+    </script>
+</head>
+
+<body>
+	<tr th:each="item:${map}">
+                <td th:text="|${item.key}:${item.value}"></td></br>
+    </tr>
+</body>
+</html>
+
